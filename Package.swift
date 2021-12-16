@@ -13,8 +13,8 @@ let package = Package(
         .library(name: "XCDLumberjackNSLogger", targets: ["XCDLumberjackNSLogger"])
     ],
     dependencies: [
-        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git, from: "2.0.0"),
-        .package(url: "https://github.com/fpillet/NSLogger.git, from: "1.7.0")
+        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "2.0.0"),
+        .package(url: "https://github.com/fpillet/NSLogger.git", from: "1.7.0")
     ],
     targets: [
         .target(
